@@ -1,3 +1,6 @@
+import { Button } from "@mui/material"
+import styled from "styled-components"
+
 import Container from "components/elements/container"
 import Description from "components/elements/description"
 import Footer from "components/elements/footer"
@@ -5,6 +8,12 @@ import Main from "components/elements/main"
 import MetaHeader from "components/elements/meta-header"
 import Title from "components/elements/title"
 import Grid from "components/features/grid"
+
+const StyledButton = styled(Button)`
+    background-color: red;
+    padding: 8;
+    border-radius: 4;
+`
 
 export default function Index() {
     const cardList = [
@@ -43,7 +52,7 @@ export default function Index() {
                 <Description url="pages/index.js" />
                 <Grid cardList={cardList} />
             </Main>
-
+            <StyledButton variant="contained">Contained</StyledButton>
             <Footer url="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app" />
         </Container>
     )

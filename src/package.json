@@ -9,9 +9,16 @@
         "lint": "next lint"
     },
     "dependencies": {
+        "@emotion/cache": "^11.10.5",
+        "@emotion/react": "^11.10.6",
+        "@emotion/server": "^11.10.0",
+        "@emotion/styled": "^11.10.6",
+        "@mui/icons-material": "^5.11.11",
+        "@mui/material": "^5.11.15",
         "babel-plugin-styled-components": "^2.0.7",
         "destyle.css": "^4.0.0",
         "next": "13.2.4",
+        "prop-types": "^15.8.1",
         "react": "18.2.0",
         "react-dom": "18.2.0",
         "styled-components": "^5.3.9"
